@@ -9,7 +9,7 @@
   ],
   "functions": {
     "api/main.py": {
-      "memory": 50,
+      "memory": 1024,
       "maxDuration": 10
     }
   },
