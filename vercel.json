@@ -7,6 +7,12 @@
       "use": "@now/python"
     }
   ],
+  "functions": {
+    "api/main.py": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
   "routes": [
     {
       "headers": {
