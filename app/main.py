@@ -1,4 +1,3 @@
-import onnxruntime
 from fastapi import FastAPI
 import test
 
