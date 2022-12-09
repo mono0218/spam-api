@@ -6,7 +6,7 @@ from sklearn.naive_bayes import BernoulliNB
 import pickle
 
 # CSV読み込み
-df = pd.read_csv('app/spam.csv', encoding='latin-1')
+df = pd.read_csv('spam.csv', encoding='latin-1')
 # 未使用列を削除
 df.drop(['Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4'], axis=1, inplace=True)
 # リネーム
